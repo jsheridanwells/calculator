@@ -1,0 +1,32 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 3em;
+}
+
+.col, .middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	max-width: 30%;
+	margin: 2.5%;
+}
+
+.result {
+	border: 2px solid blue;
+	min-width: 200px;
+}
+
+p, input, button {
+	font-family: 'Arial', sans-serif;
+	font-size: 5em;
+	color: blue;
+	margin: 3px;
+	width: 200px;
+}
+
+button {
+	width: 80px;
+}
